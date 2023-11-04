@@ -1,0 +1,172 @@
+body {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 90vw;
+    background-image: linear-gradient(to right,#afaaff, #f7ccff)
+}
+
+.header {
+    display: flex;
+    height: 3rem;
+    width: auto;     
+    /* background-color: aqua; */
+    gap: 5rem; 
+    /* justify-content: center; */
+    align-items: end;
+    position: sticky;
+    top: -1rem;
+    
+    
+}
+
+ .header .logo img {
+    width: 5rem;
+    height: 2rem;
+}
+
+.header .nav {
+    display: flex;
+    gap: 3rem;
+    margin-left: 50rem;
+    /* justify-items: right; */
+    /* align-items: end; */
+} 
+
+
+
+.nav {
+    font: 'Helvetica Neue';
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+
+/* .body .image .first {
+    object-fit: cover;
+    width: 550px;
+    height: 610px;
+} */
+
+.first {
+    width: 40rem;
+    height: 100vh;
+    /* position: relative;
+    bottom: 5rem; */
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 0.55fr;
+    height: 100vh;
+    width: auto;
+    /* background-color: green; */
+    /* margin-top: 15rem; */
+    
+}
+
+.body .text {
+    font-weight: bolder;
+    font-size: xx-large;
+    line-height: 3rem;
+    margin-top: 10rem;
+}
+
+span {
+    color: rgb(15, 124, 15);
+    
+}
+
+#social-link {
+    display: flex;
+    font-size: small;
+    font: sans-serif;
+    font-weight: 900;
+    word-spacing: 0.3rem;
+    cursor: pointer;
+    margin-top: 15rem;
+}
+
+.frame02 {
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    gap: 7rem;
+    margin-top: 10rem;
+    /* background-color: blue;
+    height: 30rem; */
+    place-content: center;
+
+}
+
+.txt p {
+    font-family: 'Montserrat', serif;
+    /* font: sans-serif; */
+    font-size: medium;
+    font-weight: 200;
+    line-height: 20px;
+    color: #26262b;
+   
+}
+
+.frame03 {
+    display: grid;
+    margin-top: 8rem;
+    width: 50vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+#h2 {
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.select p {
+    font-family: 'Montserrat', serif;
+    font-size: medium;
+    font-weight: 200;
+    line-height: 20px;
+    color: #26262b;
+}
+
+.frame03 .project {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+.frame03 .project .pic {
+    width: 417px;
+    height: 380px;
+}
+
+.frame03 .project .pics {
+    width: 417px;
+    height: 380px;
+}
+
+.frame03 .project .pic0 {
+    width: 417px;
+    height: 380px;
+}
+
+.frame03 .project .pic01 {
+    width: 417px;
+    height: 380px;
+}
+
+.frame03 .project .pic2 {
+    width: 417px;
+    height: 380px;
+}
+
+
+
+.frame04 .text  {
+    margin-top: 8rem;
+   font-weight: bolder;
+   font-size: 3rem;
+   font: 'Roboto';
+    line-height: 2px;
+}
